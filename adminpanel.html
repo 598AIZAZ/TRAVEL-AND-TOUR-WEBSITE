@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ADMIN PANEL</title>
+  <style>
+    /* CSS styling goes here */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+     background-color: rgb(0, 0, 0);
+    }
+    
+    
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 140px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: rgb(0, 0, 0);
+    }
+
+    .navbar {
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    .nav-button {
+      margin-right: 150px;
+    }
+
+    h1 {
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-bottom: 20px;
+      color: rgb(0, 0, 0);
+    }
+    input[type="text"],
+    input[type="password"], 
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+    input[type="submit"] {
+      width: 105%;
+      padding: 10px;
+      background-color: rgb(0, 0, 0);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+    input[type="submit"]:hover {
+      background-color: rgb(0, 0, 0);
+    }
+    .footer {
+        background-color: rgb(0, 0, 0);
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+      }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <h1>ADMIN PANEL LOGIN</h1>
+    <form action="admin.php" method="post">
+      <label for="admin name">admin name</label>
+      <input type="text" id="adminname" name="adminname" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      <input type="submit" value="Login">
+    </form>
+    
+  </div>
+
+   <footer class="footer">
+      <p>&copy; Copyrights 2023. All rights reserved.</p>
+  </footer>
+
+</body>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <style>
+    /* CSS styling goes here */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+     background-color: rgb(8, 151, 194);
+    }
+    
+    
+    .container {
+      max-width: 400px;
+      margin: 100px auto;
+      padding: 140px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: rgb(8, 151, 194);
+    }
+
+    .navbar {
+        background-color: rgb(8, 151, 194);
+        padding: 20px;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    .nav-button {
+      margin-right: 150px;
+    }
+
+    h1 {
+      text-align: center;
+      color: rgb(8, 151, 194);
+      margin-bottom: 30px;
+    }
+    label {
+      display: block;
+      margin-bottom: 20px;
+      color: rgb(8, 151, 194);
+    }
+    input[type="text"],
+    input[type="password"], 
+    input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+    }
+    input[type="submit"] {
+      width: 105%;
+      padding: 10px;
+      background-color: rgb(8, 151, 194);
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 20px;
+    }
+    input[type="submit"]:hover {
+      background-color: rgb(8, 151, 194);
+    }
+    .footer {
+        background-color: rgb(8, 151, 194);
+        padding: 20px;
+        color: #fff;
+        text-align: center;
+      }
+  </style>
+</head>
+<body>
+  
+  <div class="container">
+    <h1>Sign Up</h1>
+    <form action="register.php" method="post">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      <input type="submit" value="Sign Up">
+    </form>
+    <p>Already have an account? <a href="index.html">Login Now</a></p>
+  </div>
+
+   <footer class="footer">
+      <p>&copy; Copyrights 2023. All rights reserved.</p>
+  </footer>
+
+</body>

@@ -1,0 +1,718 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Islamabad Travel</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!--font awesome cdn link-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!--custom css file link-->
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!--header section starts-->
+
+    <header>
+      <!--menu-bar section start-->
+      <div id="menu-bar" class="fas fa-bars"></div>
+      <!--menu-bar section end-->
+
+      <a href="#" class="logo"><span></span>islamabad Travel</a>
+
+      <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Book">Book</a>
+        <a href="#Packages">Packages</a>
+        <a href="#Services">Services</a>
+        <a href="#Gallery">Gallery</a>
+        <a href="#Review">Review</a>
+        <a href="#Contact">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-user" id="login-btn"></i>
+        <i class="fas fa-user-plus" id="signup-btn"></i>
+
+        
+      </div>
+      <form action="" class="search-bar-container">
+        <input type="search" id="search-bar" placeholder="Search Here....." />
+        <label for="search-bar" class="fas fa-search"></label>
+      </form>
+
+
+
+
+    </header>
+  <!--header section ends-->
+
+    <!--login form container-->
+    
+    <div class="login-form-container">
+      <i class="fas fa-times" id="form-close"></i>
+    
+      <form action="login.php" method="post">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="Enter your email" name="email" required />
+        <input type="password" class="box" placeholder="Enter your password" name="password" required />
+        <input type="submit" value="Login now" class="btn" />
+        <input type="checkbox" id="Remember" />
+        <label for="Remember">Remember</label>
+        <p>Forget password? <a href="#">Click Here</a></p>
+        <p>Don't have an account? <a href="signup.html">Sign up now</a></p>
+      </form>
+    </div>
+    
+    
+
+  
+
+
+
+
+    
+
+    <!--login form  container end-->
+
+    <!-- Home section starts
+      <section class="home" id="Home">
+      <div class="content">
+        <h3>Islamabad Travel</h3>
+        <p>A beautiful city of Pakistan</p>
+        <a href="#" class="btn">discover more</a>
+      </div>
+
+      <div class="controls">
+        <span class="vid-btn" data-src="media/islvid1.mp4"></span>
+        <span class="vid-btn active" data-src="media/islvid2.mp4"></span>
+        <span class="vid-btn" data-src="media/islvid3.mp4"></span>
+        <span class="vid-btn" data-src="media/islvid4.mp4"></span>
+        <span class="vid-btn" data-src="media/islvid5.mp4"></span>
+      </div>
+
+      <div class="video-container">
+        <video src="mmedia/islvid5.mp4" id="video-slider" loop autoplay muted></video>
+      </div>
+    </section> -->
+    <!--home section ends-->
+
+
+    <!-- Home section starts -->
+<section class="home" id="Home">
+  <div class="content">
+    <h3>Islamabad Travel</h3>
+    <p>A beautiful city of Pakistan</p>
+   
+  </div>
+
+  <div class="controls">
+    <span class="vid-btn" data-src="media/islvid1.mp4"></span>
+    <span class="vid-btn active" data-src="media/islvid2.mp4"></span>
+    <span class="vid-btn" data-src="media/islvid3.mp4"></span>
+    <span class="vid-btn" data-src="media/islvid4.mp4"></span>
+    <span class="vid-btn" data-src="media/islvid5.mp4"></span>
+  </div>
+
+  <div class="video-container">
+    <video src="media/islvid5.mp4" id="video-slider" loop autoplay muted controls></video>
+  </div>
+</section>
+
+
+    <!--book section start-->
+   
+    <section class="book" id="Book">
+      <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+      </h1>
+  
+      <div class="row">
+        <div class="image">
+          <img src="media/isl1.jpg" />
+        </div>
+        <form action="connect.php" method="POST">
+          <div class="inputbox">
+            <h3>Where to</h3>
+            <input type="text" name="pname" placeholder=" place name" />
+          </div>
+          <div class="inputbox">
+            <h3>how many</h3>
+            <input type="number" name="nguest" placeholder=" number of guests" />
+          </div>
+  
+          <div class="inputbox">
+            <h3>arrivals</h3>
+            <input type="date"name="Adate" />
+          </div>
+  
+          <div class="inputbox">
+            <h3>leaving</h3>
+            <input type="date" name="ldate" />
+          </div>
+  
+          <input type="submit" name="submit" class="btn" value="Book Now" />
+        </form>
+      </div>
+    </section>
+  
+  
+
+    <!--book section start-->
+    
+
+
+    <!--packages section start-->
+    <section class="packages" id="Packages">
+      <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+      </h1>
+
+<section class="box-container">
+ <div class="box">
+   <a href="murree.html"><img src="media/murree.jpg" /></a>
+   <div class="content">
+     <h3><i class="fas fa-map-marker-alt"></i>Murree</h3>
+  <p> Murree, located near Islamabad, is a picturesque hill station in Pakistan's Punjab province. Known for its breathtaking natural beauty, it offers a cool and refreshing escape from the city's hustle and bustle. With its pleasant climate, lush green hills, and charming colonial-era architecture, Murree is a popular destination for tourists and locals alike..</p>
+  <div class="stars">
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+     <i class="fas fa-star"></i>
+  </div>
+ <div class="price">Rs. 5000 <span>Rs. 7000</span></div>
+ <a href="#Book" class="btn">book now</a>          
+</div>
+ </div>
+
+ <div class="box">
+  <a href="daman.html"><img src="media/daman.jpeg" /></a>
+     <div class="content">
+       <h3><i class="fas fa-map-marker-alt"></i>Daman-e-Koh</h3>
+    <p>Daman-e-Koh, situated in Islamabad, is a scenic viewpoint that offers panoramic views of the city and its surroundings. Perched atop the Margalla Hills, it serves as a popular tourist spot and a recreational area. Visitors can enjoy the stunning vistas, go for nature walks, or simply relax in the peaceful ambiance while taking in the beauty of the capital city.</p>
+    <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="far fa-star"></i>
+    </div>
+   <div class="price">Rs.1000<span> Rs.1500.00</span></div>
+   <a href="#Book" class="btn">book now</a>          
+  </div>
+   </div>
+
+   <div class="box">
+    <a href="monal.html"><img src="media/monal.jpg" /></a>
+     <div class="content">
+       <h3><i class="fas fa-map-marker-alt"></i>Monal</h3>
+    <p>Monal is a renowned restaurant located in the Margalla Hills of Islamabad, Pakistan. Offering breathtaking views of the city, it is a popular destination for locals and tourists alike. With its delicious cuisine, cozy ambiance, and spectacular sunset vistas, Monal provides a memorable dining experience in the heart of the capital.</p>
+    <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="far fa-star"></i>
+    </div>
+   <div class="price">Rs.1000.00<span> Rs.2000.00</span></div>
+   <a href="#Book" class="btn">book now</a>          
+  </div>
+   </div>
+ 
+ <div class="box">
+  <a href="shadra.html"><img src="media/shadra.jpg" /></a>
+     <div class="content">
+     <h3><i class="fas fa-map-marker-alt"></i>Shahdra Waterfall</h3>
+    <p>Shadra Waterfall is a captivating natural wonder located near Islamabad, Pakistan. Nestled amidst the picturesque Margalla Hills, it offers a refreshing escape from the city's hustle and bustle. The waterfall's cascading waters, lush green surroundings, and tranquil atmosphere make it a popular spot for nature lovers and adventure enthusiasts.</p>
+    <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="far fa-star"></i>
+    </div>
+   <div class="price">Rs1500<span> Rs.2500.00</span></div>
+   <a href="#Book" class="btn">book now</a>          
+  </div>
+   </div>
+
+   <div class="box">
+    <a href="neelam.html"><img src="media/neelum.jpg" /></a>
+     <div class="content">
+       <h3><i class="fas fa-map-marker-alt"></i>Neelum Valley</h3>
+    <p>Neelum Valley is a stunningly beautiful valley located near Islamabad, Pakistan. Situated in the Azad Kashmir region, it is renowned for its breathtaking landscapes, gushing rivers, and snow-capped mountains. Visitors can indulge in activities like hiking, camping, and exploring the charming villages to experience the enchanting beauty of Neelum Valley.</p>
+    <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="far fa-star"></i>
+    </div>
+   <div class="price">Rs.8000<span> Rs.15000.00</span></div>
+   <a href="#Book" class="btn">book now</a>          
+  </div>
+   </div>
+
+   <div class="box">
+    <a href="naran.html"><img src="media/naran.jpg" /></a>
+     <div class="content">
+       <h3><i class="fas fa-map-marker-alt"></i>Naran Kaghan</h3>
+    <p>Naran Kaghan, located near Islamabad, is a picturesque region in the Mansehra District of Pakistan. Known for its captivating natural beauty, it offers stunning views of snow-capped mountains, lush green meadows, and gushing rivers. Visitors can engage in activities like hiking, fishing, and jeep safaris to fully immerse themselves in the breathtaking landscapes of Naran Kaghan.</p>
+    <div class="stars">
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+       <i class="fas fa-star"></i>
+    </div>
+   <div class="price">Rs.9500.00<span> 15000</span></div>
+   <a href="#Book" class="btn">book now</a>          
+  </div>
+   </div>
+
+  </section>
+</section>
+<!--packages section end-->
+
+<!--services section starts-->
+<section class="services" id="Services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+      <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>affordable hotel</h3>
+        <p> The hotel industry in Pakistan is a part of the travel and tourism industry. Business travellers are It has observed a shift in favor of the mid-market and budget hotel segments.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>food and drinks</h3>
+        <p>These findings contrast the Desi & Continental Pakistani food.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>safty guide</h3>
+        <p>management of safety and health risks at workplaces and to provide . </p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>around the world</h3>
+        <p>And part of that experience is being thrown in with people from all around the world. 
+          Organisers often go the extra mile when designing sets,</p>
+      </div>
+   
+      <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>Overview India is now one of the fastest growing outbound tourism markets in the world, second only to China. The United Nations World</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>adventures</h3>
+        <p>Adventure tourism is a tourist activity that includes a physical activity, 
+          As travelers seek new and different experiences, adventure tourism continues to grow in </p>
+      </div>
+
+    </div>
+</section>
+<!--services section end-->
+
+<!--gallery section start-->
+
+<section class="gallery" id="Gallery">
+  <h1 class="heading">
+    <span>g</span>
+    <span>a</span>
+    <span>l</span>
+    <span>l</span>
+    <span>e</span>
+    <span>r</span>
+    <span>y</span>
+  </h1>
+
+  <div class="box-container">
+    <div class="box">
+      <img src="media/kashmir.jpg">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>Travel and holiday guide on Kashmir its best places to visit</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="media/murree.jpg">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>Travel and holiday guide on murree its best places to visit </p>
+       
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="media/isl1.jpg">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>Travel and holiday guide on faisal mosque its best places to visit</p>
+       
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="media/monu.jpg">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>Travel and holiday guide on Pakistan Monument its best places to visit</p>
+     
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="media/shadra.jpg">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>Travel and holiday guide on Shadra Waterfall its best places to visit</p>
+        
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="media/marg.jpg">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>Travel and holiday guide on Margalla Hills its best places to visit</p>
+        
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="media/naran.jpg">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>Travel and holiday guide on Naran Kaghan its best places to visit</p>
+        
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="media/neelum.jpg">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>Travel and holiday guide on neelum valley its best places to visit </p>
+        
+      </div>
+    </div>
+
+    <div class="box">
+      <img src="media/daman.jpeg">
+      <div class="content">
+        <h3>amazing places</h3>
+        <p>Travel and holiday guide on Daman-e-koh its best places to visit </p>
+     
+      </div>
+    </div>
+</div>
+</section>
+<!--gallery section end-->
+
+<!-- review section start-->
+<!-- <section class="review" id="Review">
+  
+  <h1 class="heading">
+    <span>r</span>
+    <span>e</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>w</span>
+  </h1>
+
+<div class=" swiper-container review-slider">
+  
+<div class="swiper-wrapper">
+  <div class="swiper-slide">
+    <div class="box">
+      <img src="media/usre.png">
+      <h3>Muhammad Abdullah</h3>
+      <p>
+        Neelam Valley: Nature's breathtaking masterpiece, a sanctuary for the soul. </p>
+        <div class="stars">
+       <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        </div>
+    </div>
+</div>
+
+<div class="swiper-slide">
+  <div class="box">
+    <img src="media/usre.png">
+    <h3>Sayam Tantary</h3>
+    <p>An enchanting escape to the hills, where every moment was filled with magic. The trip was great!</p>
+      <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      </div>
+  </div>
+</div>
+
+<div class="swiper-slide">
+  <div class="box">
+    <img src="media/usre.png">
+    <h3>Ehtisham Naveed</h3>
+    <p>Monal, A gastronomic delight with a view that takes your breath away. </p>
+      <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      </div>
+  </div>
+</div>
+
+<div class="swiper-slide">
+  <div class="box">
+    <img src="media/usre.png">
+    <h3>Malik Abubakar</h3>
+    <p>Daman e Koh, Where serenity meets the cityscape, offering panoramic vistas that soothe the soul.</p>
+      <div class="stars">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="far fa-star"></i>
+      </div>
+  </div>
+</div>
+</div>
+</div>
+</section> -->
+
+  <!--review section end-->
+  
+<!--review section start-->
+<section class="review" id="Review">
+  <h1 class="heading">
+    <span>r</span>
+    <span>e</span>
+    <span>v</span>
+    <span>i</span>
+    <span>e</span>
+    <span>w</span>
+  </h1>
+
+  <div class="swiper-container review-slider">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="media/user.jpg">
+          <h3>Muhammad Abdullah</h3>
+          <p>Neelam Valley: Nature's breathtaking masterpiece, a sanctuary for the soul.</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="media/user.jpg">
+          <h3>Sayam Tantary</h3>
+          <p>An enchanting escape to the hills, where every moment was filled with magic. The trip was great!</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="media/user.jpg">
+          <h3>Ehtisham Naveed</h3>
+          <p>Monal, A gastronomic delight with a view that takes your breath away.</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="media/user.jpg">
+          <h3>Malik Abubakar</h3>
+          <p>Daman e Koh, Where serenity meets the cityscape, offering panoramic vistas that soothe the soul.</p>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Add pagination bullets -->
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+<!--review section end-->
+
+<!--contact section start-->
+
+<!-- Your contact section code here -->
+
+<!--contact section end-->
+
+<!-- Add the following JavaScript code to initialize Swiper -->
+<script src="path/to/swiper.min.js"></script>
+<script>
+  var swiper = new Swiper('.review-slider', {
+    slidesPerView: 'auto',
+    spaceBetween: 20,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+  });
+</script>
+
+
+<!--contact section start -->
+
+<section class="contact" id="Contact">
+ 
+  <h1 class="heading">
+    <span>c</span>
+    <span>o</span>
+    <span>n</span>
+    <span>t</span>
+    <span>a</span>
+    <span>c</span>
+    <span>t</span>
+  </h1>
+ 
+<div class="row">
+<div class="image">
+<img src="media/isl1.jpg">
+</div>
+
+<form action="conn.php" method="POST">
+  <div class="inputBox">
+   <input type="text" name="pname" placeholder="Name"> 
+   <input type="email" name="email" placeholder="Email"> 
+  </div>
+  <div class="inputBox">
+    <input type="number" name="mobile" placeholder="Contact no"> 
+    <input type="text" name="topic" placeholder="subject"> 
+   </div>
+<textarea  placeholder="message" name="msg"  id="" cols="30" rows="10"></textarea>
+<input type="submit" class="btn" name="submit" value="submit" >
+</form>
+
+</div>
+</section>
+<!--contact section end-->
+<!--brand section start-->
+
+
+
+<!--brand section end-->
+<!--footer section start -->
+<section class="footer">
+  <div class="box-container">
+  
+    <div class="box">
+      <h3>about us</h3>
+      <p>This travel agent job description template is optimized for posting on online job boards or careers pages..</p>
+    </div>
+
+    <div class="box">
+      <h3>branch locations</h3>
+      <a href="https://www.google.com/maps/d/viewer?mid=1PdXSyjjbalDBQ2IKJDLhTgnq_9E&hl=en_US&ll=33.350963933677534%2C73.20716130000001&z=9" target="_blank" >Islamabad</a>
+      <a href="https://www.google.com/maps/d/viewer?mid=14tMmT9G9FQuz1wMxDk6lGeAGSrA&hl=en_US&ll=33.564240687766954%2C73.01396401306152&z=13" target="_blank">Rawalpindi</a>
+      
+    </div>
+
+    <div class="box">
+      <h3>quick links</h3>
+      <a href="#Home">Home</a>
+      <a href="#Book">Book</a>
+      <a href="#Packages">Packages</a>
+      <a href="#Services">Services</a>
+      <a href="#Gallery">Gallery</a>
+      <a href="#Review">Review</a>
+      <a href="#Contact">Contact</a>
+    </div>
+
+    <div class="box">
+      <h3>follow us</h3>
+      <a href="https://www.facebook.com/profile.php?id=100009331769233&sk=about"  target="_blank">facebook</a>
+      <a href="https://www.instagram.com/aizaz_qureshi_000/" target="_blank">instagram</a>
+      <a href="https://www.facebook.com/profile.php?id=100069765401415" target="_blank" >twitter</a>
+      <a href="https://www.instagram.com/tripland_travel_tours/" target="_blank">linekdin</a>
+      
+    </div>
+</div>
+<h1 class="credit">created by <span>Aizaz Ahmad & </span> all rights reserved!</h1>
+</section>
+
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--js file link-->
+  <script src="index.js"></script>
+  </body>
+</html>
